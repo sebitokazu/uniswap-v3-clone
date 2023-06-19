@@ -1,4 +1,12 @@
 {
-  "solidity.packageDefaultDependenciesContractsDirectory": "src",
-  "solidity.packageDefaultDependenciesDirectory": "lib"
+  "solidity.formatter": "prettier",
+  "solidity.defaultCompiler": "remote",
+  "solidity.compileUsingRemoteVersion": "v0.8.19",
+  // "solidity.packageDefaultDependenciesContractsDirectory": "src",
+  // "solidity.packageDefaultDependenciesDirectory": "lib",
+  "solidity.remappings": [
+    "ds-test/=packages/foundry/lib/forge-std/lib/ds-test/src/",
+    "forge-std/=packages/foundry/lib/forge-std/src/",
+    "solmate/=packages/foundry/lib/solmate/src/"
+  ]
 }
